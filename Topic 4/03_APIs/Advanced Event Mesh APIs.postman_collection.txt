@@ -897,7 +897,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n   \"name\": \"AEM_CommunitySubregion\",\n   \"datacenterId\": \"{{datacenterId}}\",\n   \"serviceClassId\":\"{{serviceClassId}}\",\n   \"serviceTypeId\": \"{{serviceTypeId}}\",\n   \"adminState\": \"start\",\n   \"cluster\": {\n\t\t\"name\": \"My-First-Cluster\"\n  \t}\n}                                                       "
+									"raw": "{\n    \"name\": \"AEM_CommunitySubregion\",\n    \"datacenterId\": \"{{datacenterId}}\",\n    \"serviceClassId\": \"{{serviceClassId}}\",\n    \"serviceTypeId\": \"{{serviceTypeId}}\",\n    \"adminState\": \"start\",\n    \"locked\": false,\n    \"eventBrokerVersion\": \"10.8.1.152-7\",\n    \"redundancyGroupSslEnabled\": false\n}"
 								},
 								"url": {
 									"raw": "https://{{region}}.console.pubsub.em.services.cloud.sap/api/v2/missionControl/eventBrokerServices",
